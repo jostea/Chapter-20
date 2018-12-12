@@ -1,10 +1,8 @@
 package HomeWork20_8;
 
-public class Pairs <F,S> {
-    public F firstVar;
-    public S secondVar;
-
-
+public class Pair <F,S> {
+    private F firstVar;
+    private S secondVar;
 
     public F getFirstVar() {
         return firstVar;
